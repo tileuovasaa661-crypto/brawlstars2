@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 2 - Component Library (Flexbox)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="navbar__logo">Brawl UI</div>
+    <ul class="navbar__links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Brawlers</a></li>
+      <li><a href="#">Game Modes</a></li>
+      <li><a href="#">Maps</a></li>
+      <li><a href="#">Shop</a></li>
+    </ul>
+    <div class="navbar__buttons">
+      <button class="btn btn--ghost">Log in</button>
+      <button class="btn btn--primary">Sign up</button>
+    </div>
+  </nav>
+
+
+  <section class="cards">
+    <article class="card">
+      <h3 class="card__title">Shelly</h3>
+      <p class="card__text">A short-range brawler with a powerful shotgun. Great for beginners.</p>
+      <button class="btn btn--primary">Unlock</button>
+    </article>
+
+    <article class="card">
+      <h3 class="card__title">Piper</h3>
+      <p class="card__text">Piper deals high damage from a distance, but she has very low health and needs careful positioning to survive close fights. New players often struggle with her range.</p>
+      <button class="btn btn--primary">Unlock</button>
+    </article>
+
+    <article class="card">
+      <h3 class="card__title">Bull</h3>
+      <p class="card__text">A tanky brawler who charges into enemies.</p>
+      <button class="btn btn--primary">Unlock</button>
+    </article>
+  </section>
+
+    
+  <nav class="pagination" aria-label="Pagination">
+    <button class="pagination__arrow" aria-label="Previous page">&larr;</button>
+
+    <ul class="pagination__pages">
+      <li><a href="#">1</a></li>
+      <li><a href="#" class="is-active">2</a></li>
+      <li><a href="#">3</a></li>
+      <li><a href="#">4</a></li>
+      <li><a href="#">5</a></li>
+    </ul>
+
+    <button class="pagination__arrow" aria-label="Next page">&rarr;</button>
+
+    <span class="pagination__count">128 results</span>
+  </nav>
+
+  <div class="comment">
+    <img class="comment__avatar" src="images/avatar.jpeg" alt="Avatar of the comment author">
+    <div class="comment__body">
+      <p class="comment__author">Aigerim K.</p>
+      <p class="comment__text">I have been playing Brawl Stars since the soft launch, and the balance changes over the years have made the game much more interesting. My favorite mode is still Gem Grab, even though Knockout is more popular now among competitive players.</p>
+    </div>
+  </div>
+
+  <section class="pricing">
+    <article class="plan">
+      <h3 class="plan__title">Free</h3>
+      <p class="plan__price">$0<span>/season</span></p>
+      <p class="plan__desc">The default season track, for players who want to progress for free.</p>
+      <ul class="plan__features">
+        <li>Basic season rewards</li>
+        <li>Coins and Power Points</li>
+        <li>Quests and badges</li>
+      </ul>
+      <button class="btn btn--ghost">Choose plan</button>
+    </article>
+
+    <article class="plan plan--recommended">
+      <p class="plan__badge">Most popular</p>
+      <h3 class="plan__title">Brawl Pass</h3>
+      <p class="plan__price">2 690,00 <span>₸</span></p>
+      <p class="plan__desc">Unlocks extra rewards on every tier of the season track, including a new skin bundle, gems, coins, vault keys and more resources than the free track.</p>
+      <ul class="plan__features">
+        <li>New skin bundle</li>
+        <li>Gems, coins and Power Points</li>
+        <li>Vault keys</li>
+        <li>Quests and badges</li>
+      </ul>
+      <button class="btn btn--primary">Choose plan</button>
+    </article>
+
+    <article class="plan">
+      <p class="plan__badge">BP Plus only</p>
+      <h3 class="plan__title">Brawl Pass Plus</h3>
+      <p class="plan__price">3 850,00 <span>₸</span></p>
+      <p class="plan__desc">Everything from Brawl Pass plus a 20% instant progress boost and extra gems.</p>
+      <ul class="plan__features">
+        <li>Everything in Brawl Pass</li>
+        <li>20% instant progress</li>
+        <li>100 extra gems</li>
+        <li>Buzz Lightyear key</li>
+      </ul>
+      <button class="btn btn--ghost">Choose plan</button>
+    </article>
+  </section>
+</body>
+</html>
+
