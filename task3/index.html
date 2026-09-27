@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 3 - Three Layouts, One Markup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="switcher">
+   <button class="switcher__btn is-active" data-mode="grid">Grid view</button>
+   <button class="switcher__btn" data-mode="list">List view</button>
+   <button class="switcher__btn" data-mode="magazine">Magazine view</button>
+  </div>
+
+  <div class="items items--grid" id="items">
+
+    <article class="item item--lead">
+      <img class="item__img" src="images/emz.jpeg" alt="Emz artwork">
+      <div class="item__body">
+        <h2 class="item__title">Emz: Queen of the Bushes</h2>
+        <p class="item__text">Emz sprays a wide area with her makeup spray, dealing damage over time to anyone caught in the cloud. She is especially strong in bushes, where enemies cannot see how much damage they are taking until it is too late.</p>
+        <span class="item__date rarity-epic">Epic</span>
+      </div>
+    </article>
+
+    <article class="item">
+      <img class="item__img" src="images/edgar.jpeg" alt="Edgar artwork">
+      <div class="item__body">
+        <h2 class="item__title">Edgar</h2>
+        <p class="item__text">Edgar leaps into fights and heals from every punch he lands.</p>
+        <span class="item__date rarity-epic">Epic</span>
+      </div>
+    </article>
+
+    <article class="item">
+      <img class="item__img" src="images/fang.jpeg" alt="Fang artwork">
+      <div class="item__body">
+        <h2 class="item__title">Fang</h2>
+        <p class="item__text">Fang kicks his boots at enemies and can dash across the whole map to finish off low-health targets, making him a strong pick for aggressive players who like to chase kills.</p>
+        <span class="item__date rarity-mythic">Mythic</span>
+      </div>
+    </article>
+
+    <article class="item">
+      <img class="item__img" src="images/bea.jpeg" alt="Bea artwork">
+      <div class="item__body">
+        <h2 class="item__title">Bea</h2>
+        <p class="item__text">Bea's shots get stronger the longer she stays out of the fight.</p>
+        <span class="item__date rarity-epic">Epic</span>
+      </div>
+    </article>
+
+    <article class="item">
+      <img class="item__img" src="images/tara.jpeg" alt="Tara artwork">
+      <div class="item__body">
+        <h2 class="item__title">Tara</h2>
+        <p class="item__text">Tara pulls enemies together with her cards and can open a portal to another dimension, dragging every brawler caught inside it into a shared space where they all take damage together.</p>
+        <span class="item__date rarity-mythic">Mythic</span>
+      </div>
+    </article>
+
+    <article class="item">
+      <img class="item__img" src="images/bazz.jpeg" alt="Buzz artwork">
+      <div class="item__body">
+        <h2 class="item__title">Buzz</h2>
+        <p class="item__text">Buzz dashes to the lowest-health enemy and stuns them.</p>
+        <span class="item__date rarity-mythic">Mythic</span>
+      </div>
+    </article>
+
+    <article class="item">
+      <img class="item__img" src="images/bibi.jpeg" alt="Bibi artwork">
+      <div class="item__body">
+        <h2 class="item__title">Bibi</h2>
+        <p class="item__text">Bibi swings her bat and can knock enemies into walls, stunning them on impact if they land against something solid.</p>
+        <span class="item__date rarity-epic">Epic</span>
+      </div>
+    </article>
+
+    <article class="item">
+      <img class="item__img" src="images/alli.jpeg" alt="Alli artwork">
+      <div class="item__body">
+        <h2 class="item__title">Alli</h2>
+        <p class="item__text">Alli throws a boomerang scythe that returns to her.</p>
+        <span class="item__date rarity-mythic">Mythic</span>
+      </div>
+    </article>
+
+    <article class="item">
+      <img class="item__img" src="images/spaik.jpeg" alt="Spike artwork">
+      <div class="item__body">
+        <h2 class="item__title">Spike</h2>
+        <p class="item__text">Spike lobs a cactus grenade that bursts into spikes, and his Super pulls every nearby enemy toward the center of the explosion before it detonates a second time.</p>
+        <span class="item__date rarity-legendary">Legendary</span>
+      </div>
+    </article>
+
+    <article class="item">
+      <img class="item__img" src="images/chester.jpeg" alt="Chester artwork">
+      <div class="item__body">
+        <h2 class="item__title">Chester</h2>
+        <p class="item__text">Chester throws candy bombs with random effects each time.</p>
+        <span class="item__date rarity-legendary">Legendary</span>
+      </div>
+    </article>
+
+    <article class="item">
+      <img class="item__img" src="images/collete.jpeg" alt="Colette artwork">
+      <div class="item__body">
+        <h2 class="item__title">Colette</h2>
+        <p class="item__text">Colette's attack deals damage equal to a percentage of the target's remaining health, which makes her a serious threat to tanky brawlers with a lot of hit points.</p>
+        <span class="item__date rarity-epic">Epic</span>
+      </div>
+    </article>
+
+    <article class="item">
+      <img class="item__img" src="images/poco.jpeg" alt="Poco artwork">
+      <div class="item__body">
+        <h2 class="item__title">Poco</h2>
+        <p class="item__text">Poco heals himself and nearby teammates with every shot.</p>
+        <span class="item__date rarity-rare">Rare</span>
+      </div>
+    </article>
+
+    <article class="item">
+      <img class="item__img" src="images/lola.jpeg" alt="Lola artwork">
+      <div class="item__body">
+        <h2 class="item__title">Lola</h2>
+        <p class="item__text">Lola creates a decoy copy of herself to confuse enemies about her real position, and her Super lets her take direct control of the decoy while it fights on its own.</p>
+        <span class="item__date rarity-epic">Epic</span>
+      </div>
+    </article>
+
+        <article class="item">
+      <img class="item__img" src="images/doug.jpeg" alt="Doug artwork">
+      <div class="item__body">
+        <h2 class="item__title">Doug</h2>
+        <p class="item__text">Doug hits enemies with a hotdog cannon and heals himself and his team with every attack, then revives a fallen teammate with his Super, which can completely swing a fight if timed well.</p>
+        <span class="item__date rarity-mythic">Mythic</span>
+      </div>
+    </article>
+
+    <article class="item">
+      <img class="item__img" src="images/kit.jpeg" alt="Kit artwork">
+      <div class="item__body">
+        <h2 class="item__title">Kit</h2>
+        <p class="item__text">Kit can attach himself to a teammate to heal and protect them, or leap onto an enemy to weaken them.</p>
+        <span class="item__date rarity-legendary">Legendary</span>
+      </div>
+    </article>
+
+  </div>
+
+</body>
+</html>
